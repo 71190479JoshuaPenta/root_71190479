@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".TambahActivity"
+    android:background="@drawable/custom1">
+
+    <EditText
+        android:id="@+id/edtUpdateJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Lagu"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/edtUpdatePenyanyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateJudul"
+        android:textColorHint="@color/black"
+        android:hint="Nama Penyanyi"/>
+
+    <EditText
+        android:id="@+id/edtUpdateJudulAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdatePenyanyi"
+        android:textColorHint="@color/black"
+        android:hint="Album" />
+
+    <EditText
+        android:id="@+id/edtUpdateGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateJudulAlbum"
+        android:textColorHint="@color/black"
+        android:hint="Genre"/>
+
+    <EditText
+        android:id="@+id/edtUpdateTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateGenre"
+        android:textColorHint="@color/black"
+        android:hint="Tahun Rilis"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtUpdateTahun"
+        android:text="Save" />
+
+
+
+
+
+
+</RelativeLayout>
